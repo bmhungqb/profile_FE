@@ -14,7 +14,7 @@ class HomePage extends Component {
         };
         return (
             <div>
-                <HomeHeader isShowBanner={true} />
+                <HomeHeader />
             </div>
 
         );

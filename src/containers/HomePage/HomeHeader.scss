@@ -10,6 +10,7 @@
         width: 100%;
         height: 100%;
         display: flex;
+        background-color: #f8f8f8;
 
         .left-content {
             width: 20%;
@@ -34,7 +35,8 @@
             .child-content {
                 .subs-title {
                     font-weight: 400;
-                    font-size: 12px;
+                    font-size: 21px;
+                    cursor: pointer;
                 }
             }
         }
@@ -42,52 +44,48 @@
         .right-content {
             width: 40%;
             display: flex;
-            justify-content: flex-end;
             align-items: center;
 
             .left {
-                width: 20%;
+                width: 60%;
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
+                margin: 0 130px;
+
+                .language {
+                    font-size: 21px;
+                    cursor: pointer;
+
+                    i {
+                        align-items: center;
+                        margin-left: 5px;
+                    }
+                }
+
+                .light {
+                    cursor: pointer;
+                    margin-left: 5px;
+
+                    .off {
+                        display: none;
+                    }
+
+                    i {
+                        font-size: 23px;
+                        margin-left: 5px;
+                    }
+                }
             }
 
             .right {
-                width: 20%;
+                width: 40%;
+
+                .user-infor {
+                    .user-name {
+                        font-size: 20px;
+                    }
+                }
             }
-
-            // .language-vi {
-            //     cursor: pointer;
-            //     opacity: 0.2;
-
-            //     &.active {
-            //         opacity: 1;
-
-            //         span {
-            //             color: orange;
-            //         }
-            //     }
-
-            //     &:hover {
-            //         opacity: 1;
-            //     }
-            // }
-            // .language-en {
-            //     margin: 0 10px;
-            //     cursor: pointer;
-            //     opacity: 0.2;
-
-            //     &.active {
-            //         opacity: 1;
-
-            //         span {
-            //             color: blue;
-            //         }
-            //     }
-
-            //     &:hover {
-            //         opacity: 1;
-            //     }
-            // }
         }
     }
 }

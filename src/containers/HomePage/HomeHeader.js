@@ -49,15 +49,18 @@ class HomeHeader extends Component {
                         </div>
                         <div className='right-content'>
                             <div className='left'>
-                                <div className='language'>Language</div>
+                                <div className='language'>
+                                    Language
+                                    <i className="fa fa-angle-down"></i>
+                                </div>
                                 <div className='light'>
-                                    <i class="fa fa-sun"></i>
-                                    <i class="fa fa-moon"></i>
+                                    <i className="fa fa-sun off"></i>
+                                    <i className="fa fa-moon on"></i>
                                 </div>
                             </div>
                             <div className='right'>
                                 <div className='user-infor'>
-                                    <div className='user-name'> Manh Hung</div>
+                                    <div className='user-name'>Mạnh Hùng</div>
                                 </div>
                                 {/* <div className='user-login-signup'></div> */}
                             </div>
